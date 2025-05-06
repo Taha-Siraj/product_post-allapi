@@ -102,7 +102,7 @@ const App = () => {
       <ToastContainer position='top-right' autoClose={2000} />
       <div className='py-10 flex justify-center'>
         <form onSubmit={postApi} className='bg-gray-900 shadow-xl rounded-2xl w-[380px] px-6 py-6 space-y-5 border border-cyan-400'>
-          <h1 className='text-3xl font-bold text-cyan-400 text-center'>Post Product</h1>
+          <h1 className='text-3xl font-bold text-cyan-400 text-center'>Add Product</h1>
 
           <input type='text' placeholder='Product Name' className={stylecss} value={name} onChange={(e) => setName(e.target.value)} />
           <input type='number' placeholder='Product Price' className={stylecss} value={price} onChange={(e) => setprice(e.target.value)} />
