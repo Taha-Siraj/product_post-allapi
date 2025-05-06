@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color:  #fff;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+button , input{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    border: #fff 1px solid;
+}
+.allProduct{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    padding: 20px;
+}
+.product{
+    padding: 20px 40px;
+    border: #ffffff 1px solid;  
+}
+.product h1{
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.layout{
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.8px);
+}
