@@ -13,7 +13,7 @@ const App = () => {
   const [isShow, setIsShow] = useState(false);
   const [productId, setProductId] = useState('');
   const [loading, setLoading] = useState(false);
-  const baseUrl = 'https://product-post-server.vercel.app/';
+  const baseUrl = 'https://product-post-server.vercel.app';
 
   const stylecss = 'border-none py-2 px-4 rounded-md focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:border-transparent text-black font-semibold w-full text-lg';
 
